@@ -6,15 +6,15 @@
   
   <title>“学习笔记” | YZ的Hexo学习博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Hexo学习笔记1.本地启动指令 hexo s:启动本地服务器  hexo g:生成静态文件   2.新建文章执行hexo new “文章标题”就能创建新的Markdown文件。 PS:1.冒号后必须加一个空格：如果是多个标签，写成[“编程”，”Hexo”,”学习’’] ​      2.头信息引号是英文 ​      3.头信息和正文之间要留一个空行">
+  <meta name="description" content="Hexo学习笔记1.本地启动指令 hexo s:启动本地服务器  hexo g:生成静态文件   2.新建文章执行hexo new “文章标题”就能创建新的Markdown文件。 PS:1.冒号后必须加一个空格：如果是多个标签，写成[“编程”，”Hexo”,”学习’’] ​      2.头信息引号是英文 ​      3.头信息和正文之间要留一个空行 3.补充内容步骤 1：打开 Git Bash">
 <meta property="og:type" content="article">
 <meta property="og:title" content="“学习笔记”">
 <meta property="og:url" content="http://example.com/2025/12/24/%E2%80%9C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E2%80%9D/index.html">
 <meta property="og:site_name" content="YZ的Hexo学习博客">
-<meta property="og:description" content="Hexo学习笔记1.本地启动指令 hexo s:启动本地服务器  hexo g:生成静态文件   2.新建文章执行hexo new “文章标题”就能创建新的Markdown文件。 PS:1.冒号后必须加一个空格：如果是多个标签，写成[“编程”，”Hexo”,”学习’’] ​      2.头信息引号是英文 ​      3.头信息和正文之间要留一个空行">
+<meta property="og:description" content="Hexo学习笔记1.本地启动指令 hexo s:启动本地服务器  hexo g:生成静态文件   2.新建文章执行hexo new “文章标题”就能创建新的Markdown文件。 PS:1.冒号后必须加一个空格：如果是多个标签，写成[“编程”，”Hexo”,”学习’’] ​      2.头信息引号是英文 ​      3.头信息和正文之间要留一个空行 3.补充内容步骤 1：打开 Git Bash">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2025-12-24T15:28:27.000Z">
-<meta property="article:modified_time" content="2025-12-24T15:51:25.117Z">
+<meta property="article:modified_time" content="2025-12-26T11:45:51.422Z">
 <meta property="article:author" content="YZ">
 <meta property="article:tag" content="编程">
 <meta name="twitter:card" content="summary">
@@ -106,11 +106,19 @@
 <p>PS:1.冒号后必须加一个空格：如果是多个标签，写成[“编程”，”Hexo”,”学习’’]</p>
 <p>​      2.头信息引号是英文</p>
 <p>​      3.头信息和正文之间要留一个空行</p>
+<h2 id="3-补充内容"><a href="#3-补充内容" class="headerlink" title="3.补充内容"></a>3.补充内容</h2><h3 id="步骤-1：打开-Git-Bash-终端"><a href="#步骤-1：打开-Git-Bash-终端" class="headerlink" title="步骤 1：打开 Git Bash 终端"></a>步骤 1：打开 Git Bash 终端</h3><p>1.双击桌面的Git Bash图标 ；<br>2.终端打开后，执行命令进入 Hexo 博客目录：</p>
+<p>cd &#x2F;c&#x2F;Users&#x2F;Lenovo&#x2F;Desktop&#x2F;hexo-blog</p>
+<p>3.执行ls命令，能看到_config.yml、source等文件夹，说明路径正确。</p>
+<h3 id="步骤-2：打开-Typora-编辑现有笔记"><a href="#步骤-2：打开-Typora-编辑现有笔记" class="headerlink" title="步骤 2：打开 Typora 编辑现有笔记"></a>步骤 2：打开 Typora 编辑现有笔记</h3><p>1.点击   桌面 &gt; hexo-blog &gt; source &gt; _posts；<br>2.找到学习笔记.md文件，右键选择打开方式 &gt; Typora；<br>3.在 Typora 中直接在现有内容后续写笔记（按 Markdown 语法编写），写完按Ctrl+S保存文件。</p>
+<h3 id="步骤-3：重新生成并部署博客"><a href="#步骤-3：重新生成并部署博客" class="headerlink" title="步骤 3：重新生成并部署博客"></a>步骤 3：重新生成并部署博客</h3><p>回到Git Bash 终端，执行以下命令更新博客并推送到 GitHub Pages：</p>
+<p>hexo clean  # 清理旧的静态文件<br>hexo g      # 生成包含新内容的静态文件<br>hexo d      # 部署到GitHub仓库</p>
+<p>若弹出 GitHub 登录验证，按提示完成授权即可。</p>
+<h3 id="步骤-4：验证更新结果"><a href="#步骤-4：验证更新结果" class="headerlink" title="步骤 4：验证更新结果"></a>步骤 4：验证更新结果</h3><p>稍等 1-2 分钟，打开浏览器访问<a target="_blank" rel="noopener" href="https://ziying4-dev.github.io,能看到学习笔记里新增的内容,说明更新成功./">https://ziying4-dev.github.io，能看到学习笔记里新增的内容，说明更新成功。</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2025/12/24/%E2%80%9C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E2%80%9D/" data-id="cuidqnNVtwvTWrcZ4ePtWGPXi" data-title="“学习笔记”" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2025/12/24/%E2%80%9C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E2%80%9D/" data-id="cuidGoXCKafMcdc9s42ilf0H9" data-title="“学习笔记”" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
