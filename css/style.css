@@ -1344,3 +1344,22 @@ pre .javascript .function {
   margin-right: 5px;
   display: inline-block;
 }
+html {
+    background: url(/Rose.jpg) no-repeat center center fixed !important;
+    background-size: cover !important;
+    height: 100%;
+}
+
+body {
+    background: transparent !important;
+}
+
+.header {
+    background: transparent !important;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.8) !important;
+    padding: 20px;
+    border-radius: 10px;
+}
