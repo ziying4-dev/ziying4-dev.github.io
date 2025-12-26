@@ -1,0 +1,7 @@
+#banner {
+  background-image: url("https://raw.githubusercontent.com/ziying4-dev/ziying4-dev.github.io/main/images/banner.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+}
